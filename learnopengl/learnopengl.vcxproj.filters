@@ -18,15 +18,30 @@
     <ClCompile Include="glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\03_shaders.cpp">
+    <ClCompile Include="..\src\Shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\Shader.cpp">
+    <ClCompile Include="..\src\VAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\04_textures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stb_implementation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VBO.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\VAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\VBO.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,6 +50,12 @@
       <Filter>Resource Files</Filter>
     </None>
     <None Include="..\assets\Shaders\shader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\assets\Textures\texShader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\assets\Textures\texShader.frag">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

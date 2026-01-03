@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -128,16 +128,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\03_shaders.cpp" />
+    <ClCompile Include="..\src\04_textures.cpp" />
     <ClCompile Include="..\src\Shader.cpp" />
+    <ClCompile Include="..\src\stb_implementation.cpp" />
+    <ClCompile Include="..\src\VAO.cpp" />
+    <ClCompile Include="..\src\VBO.cpp" />
     <ClCompile Include="glad.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Shader.h" />
+    <ClInclude Include="..\include\VAO.h" />
+    <ClInclude Include="..\include\VBO.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\assets\Shaders\shader.frag" />
     <None Include="..\assets\Shaders\shader.vert" />
+    <None Include="..\assets\Textures\texShader.frag" />
+    <None Include="..\assets\Textures\texShader.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
