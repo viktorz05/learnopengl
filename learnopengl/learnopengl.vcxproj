@@ -128,7 +128,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\04_textures.cpp" />
+    <ClCompile Include="..\include\Texture.cpp" />
+    <ClCompile Include="..\src\05_transformations.cpp" />
     <ClCompile Include="..\src\Shader.cpp" />
     <ClCompile Include="..\src\stb_implementation.cpp" />
     <ClCompile Include="..\src\VAO.cpp" />
@@ -137,12 +138,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Shader.h" />
+    <ClInclude Include="..\include\Texture.h" />
     <ClInclude Include="..\include\VAO.h" />
     <ClInclude Include="..\include\VBO.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\assets\Shaders\shader.frag" />
     <None Include="..\assets\Shaders\shader.vert" />
+    <None Include="..\assets\Shaders\transformShader.vert" />
     <None Include="..\assets\Textures\texShader.frag" />
     <None Include="..\assets\Textures\texShader.vert" />
   </ItemGroup>
